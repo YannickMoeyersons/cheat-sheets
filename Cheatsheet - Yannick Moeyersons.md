@@ -1,59 +1,55 @@
 
 
-#Cheatsheet
-
-#Enterprise Linux
-
-
+#Cheatsheet: Enterprise Linux
 
 ##Vagrant:
 
-###Centos7 – download en install
+- Centos7 – download en install
 vagrant box add matyunin/centos7
 
-###Vagrant command info
+- Vagrant command info
 vagrant box add -h
 
-###Kopiëren naar een bepaald pad
+- Kopiëren naar een bepaald pad
 vagrant init
 
-###Opstarten van de VM
+- Opstarten van de VM
 vagrant up
 
-###Verwijderen van de VM
+- Verwijderen van de VM
 Vagrant destroy
 
-###VM afzetten
+- VM afzetten
 Vagrant halt
 
-###VM reboot
+- VM reboot
 Vagrant reload
 
-###Wanneer de VM geboot is, ansible uitvoeren Bv.
+- Wanneer de VM geboot is, ansible uitvoeren Bv.
 Vagrant provision
 
-###Lijst van VM's in box
+- Lijst van VM's in box
 vagrant box list
 
 ##Algemeen:
 
-###Niveau hoger in de mappenstructuur
+- Niveau hoger in de mappenstructuur
 cd..
 
 ##Git clone:
 
-###Informatie
+- Informatie
 git status
 
-###Alle bestanden in een map selecteren
+- Alle bestanden in een map selecteren
 git add.
 
-###Alles opslaan met commentaar
+- Alles opslaan met commentaar
 git commit –m "Commit msg"
 
-###Uploaden naar github
+- Uploaden naar github
 git push
 
-###Afhalen van github
+- Afhalen van github
 git pull
 
