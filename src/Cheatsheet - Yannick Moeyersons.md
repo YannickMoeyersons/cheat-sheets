@@ -11,12 +11,13 @@
 - Centos7 -> download en install: vagrant box add matyunin/centos7
 - Vagrant command info: vagrant box add -h
 - Kopiëren naar een bepaald pad: vagrant init
-- Opstarten van de VM: vagrant up
+- Opstarten van de VM: vagrant up [host]
 - Verwijderen van de VM: vagrant destroy
 - VM afzetten: vagrant halt
 - VM reboot: vagrant reload
 - Wanneer de VM geboot is, ansible uitvoeren: vagrant provision
 - Lijst van VM's in box: vagrant box list
+- Log in: ssh [host]
 
 
 ##Git clone:
